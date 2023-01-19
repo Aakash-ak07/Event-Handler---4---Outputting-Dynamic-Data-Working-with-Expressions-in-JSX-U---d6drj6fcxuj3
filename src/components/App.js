@@ -10,9 +10,10 @@ const App = () => {
       console.log("I was not double clicked");
     }
   }
+  
   return (
     <div id="main">
-      <button id="dblclick-btn">Double click me</button>
+      <button id="dblclick-btn" onClick={handleDoubleClick}>Double click me</button>
     </div>
   )
 }
